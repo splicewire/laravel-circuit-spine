@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\CircuitSpineData\Ports;
+namespace Splicewire\Circuit\Ports;
 
 use RuntimeException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\CircuitSpineData\Graph;
+namespace Splicewire\Circuit\Graph;
 
 /**
  * A directed wire from one node's output to another node's input, addressed by node

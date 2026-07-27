@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\CircuitSpineData\Context;
+namespace Splicewire\Circuit\Context;
 
 /**
  * Provenance carried through a run, read from one place instead of reconstructed per
@@ -41,8 +41,6 @@ class RunContext
      * identity** — never a Conduit id (two Conduits may wrap one agent → an undetected
      * cycle) nor the ephemeral run id (A→A would never trip). The guard checks the
      * bounds *before* descending (see the host's `DelegationGuard`).
-     *
-     * @return self
      */
     public function descend(string $agentIdentity): self
     {

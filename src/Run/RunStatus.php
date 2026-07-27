@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\CircuitSpineData\Run;
+namespace Splicewire\Circuit\Run;
 
 /**
  * Lifecycle of a whole run. `Paused` is the seam for durable suspend/resume-from-frontier

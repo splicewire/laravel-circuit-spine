@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\CircuitSpineData\Run;
+namespace Splicewire\Circuit\Run;
 
-use Splicewire\CircuitSpineData\Ports\Envelope;
+use Splicewire\Circuit\Ports\Envelope;
 
 /**
  * The record of one node pass. `iteration` is the seam for loops (issue 06): a node
