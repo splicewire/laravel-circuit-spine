@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Circuit\Run;
+namespace Splicewire\Circuits\Run;
 
 /**
  * Outcome of a single node pass. `NeedsReview`/`WaitingForInput` are the HITL seams

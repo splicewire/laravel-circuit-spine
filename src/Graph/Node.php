@@ -1,8 +1,8 @@
 <?php
 
-namespace Splicewire\Circuit\Graph;
+namespace Splicewire\Circuits\Graph;
 
-use Splicewire\Circuit\Ports\Port;
+use Splicewire\Circuits\Ports\Port;
 
 /**
  * A vertex in a circuit graph. Generically named to avoid colliding with a host's

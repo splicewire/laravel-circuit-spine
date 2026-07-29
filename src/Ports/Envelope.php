@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Circuit\Ports;
+namespace Splicewire\Circuits\Ports;
 
 /**
  * The one value that crosses every node boundary: a `{type, payload}` pair. `type`

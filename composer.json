@@ -9,12 +9,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Splicewire\\Circuit\\": "src/"
+            "Splicewire\\Circuits\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Splicewire\\Circuit\\Tests\\": "tests/"
+            "Splicewire\\Circuits\\Tests\\": "tests/"
         }
     },
     "extra": {

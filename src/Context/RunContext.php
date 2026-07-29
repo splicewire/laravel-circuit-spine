@@ -1,6 +1,6 @@
 <?php
 
-namespace Splicewire\Circuit\Context;
+namespace Splicewire\Circuits\Context;
 
 /**
  * Provenance carried through a run, read from one place instead of reconstructed per
