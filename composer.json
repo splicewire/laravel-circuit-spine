@@ -18,6 +18,15 @@
         }
     },
     "extra": {
+        "package-topology": {
+            "because": "the spine keeps its noun VOs; it must never reach up into the engine process subtrees",
+            "sourceNeverReferences": [
+                "Splicewire\\Circuits\\Execution\\",
+                "Splicewire\\Circuits\\Validation\\",
+                "Splicewire\\Circuits\\Dispatch\\",
+                "Splicewire\\Circuits\\Scheduling\\"
+            ]
+        },
         "branch-alias": {
             "dev-main": "1.0.x-dev"
         }
