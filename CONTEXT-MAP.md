@@ -1,4 +1,4 @@
-# laravel-circuit-spine-data — Context Map (spoke)
+# laravel-circuit-spine — Context Map (spoke)
 
 The satellite-facing DTO half of the circuit engine (`Port`/`Node`/`Edge`/`Envelope`/`Run`;
 pure data, no rushing deps). Layering + shared seam rules: `splicewire-app/CONTEXT-MAP.md`.
