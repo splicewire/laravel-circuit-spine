@@ -5,6 +5,6 @@ pure data, no rushing deps). Layering + shared seam rules: `splicewire-app/CONTE
 
 ## The seam this file exists to record
 
-Its consumer lives in a **different, in-app** repo and isn't visible from here:
-`laravel-circuit-engine` (`Rushing\CircuitEngine\`, private) depends on this package —
+Its consumer is the engine PACKAGE beside it (the in-app era this file described ended with the
+ESP renames): `splicewire/laravel-circuit-engine` (`Splicewire\Circuits\`) depends on this package —
 **never the reverse** (1:1 parity). Pattern: app ADR-0044.
